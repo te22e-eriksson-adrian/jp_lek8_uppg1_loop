@@ -18,8 +18,14 @@ public class App {
 
         //C
         System.out.println("     ");
-        for (int varv2=0; varv2<5; varv2++){
+        for (int varv2=0; varv2<6; varv2++){
             System.out.println("Varv nummer: "+varv2);
+        }
+
+        //D
+        System.out.println("     ");
+        for (int varv3=2; varv3<6; varv3++){
+            System.out.println("Varv nummer: "+varv3);
         }
     }
 }

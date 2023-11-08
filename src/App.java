@@ -51,13 +51,19 @@ public class App {
         Scanner tangentbord = new Scanner(System.in);
         int[] array = new int[5];
         for (int i=0; i<5; i++){
-            System.out.print("Skriv in tal "+i+" här: ");
+            System.out.print("Skriv in tal "+(i+1)+" här: ");
             array[i] = tangentbord.nextInt();
             tangentbord.nextLine();
         }
         System.out.println("     ");
-        for (int i2=5; i2>-1; i2--){
-            System.out.println("Tal nummer "+i2+" är: "+i2);
+        for (int i2=0; i2<5; i2++){
+            System.out.println("Tal nummer "+(i2+1)+" är: "+array[i2]);
+        }
+
+        //H
+        System.out.println("     ");
+        for (int i3=4; i3>=0; i3--){
+            System.out.println("Tal nummer "+(i3+1)+" är: "+array[i3]);
         }
         tangentbord.close();
     }

@@ -65,6 +65,15 @@ public class App {
         for (int i3=4; i3>=0; i3--){
             System.out.println("Tal nummer "+(i3+1)+" är: "+array[i3]);
         }
+
+        //I
+        System.out.println("     ");
+        System.out.print("Skriv antalet stjärnor du vill ska skrivas ut här: ");
+        int amount_star = tangentbord.nextInt();
+        tangentbord.nextLine();
+        for (int i4=-1; i4<=amount_star; i4++){
+            System.out.print("*");
+        }
         tangentbord.close();
     }
 }

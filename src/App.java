@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         //A
@@ -43,5 +45,20 @@ public class App {
         for (int varv5=5; varv5>-1; varv5--){
             System.out.println("Varv nummer: "+varv5);
         }
+
+        //G
+        System.out.println("     ");
+        Scanner tangentbord = new Scanner(System.in);
+        int[] array = new int[5];
+        for (int i=0; i<5; i++){
+            System.out.print("Skriv in tal "+i+" här: ");
+            array[i] = tangentbord.nextInt();
+            tangentbord.nextLine();
+        }
+        System.out.println("     ");
+        for (int i2=5; i2>-1; i2--){
+            System.out.println("Tal nummer "+i2+" är: "+i2);
+        }
+        tangentbord.close();
     }
 }

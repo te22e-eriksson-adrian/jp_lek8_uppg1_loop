@@ -1,7 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
         //A
-        System.out.println("     ");
         int varv = 0;
         while (varv<=5){
             System.out.println("Varv nummer: "+varv);
@@ -27,5 +26,15 @@ public class App {
         for (int varv3=2; varv3<6; varv3++){
             System.out.println("Varv nummer: "+varv3);
         }
+
+        //E
+        System.out.println("     ");
+        int varv4 = 5;
+        while (varv4>=0){
+            System.out.println("Varv nummer: "+varv4);
+            varv4--;
+        }
+
+        //D
     }
 }

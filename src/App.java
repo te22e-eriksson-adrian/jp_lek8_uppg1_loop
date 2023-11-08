@@ -23,9 +23,12 @@ public class App {
 
         //D
         System.out.println("     ");
-        for (int varv3=2; varv3<6; varv3++){
+        int varv3=2;
+        do{
             System.out.println("Varv nummer: "+varv3);
+            varv3++;
         }
+        while (varv3<6);
 
         //E
         System.out.println("     ");
@@ -35,6 +38,10 @@ public class App {
             varv4--;
         }
 
-        //D
+        //F
+        System.out.println("     ");
+        for (int varv5=5; varv5>-1; varv5--){
+            System.out.println("Varv nummer: "+varv5);
+        }
     }
 }

@@ -71,9 +71,24 @@ public class App {
         System.out.print("Skriv antalet stjärnor du vill ska skrivas ut här: ");
         int amount_star = tangentbord.nextInt();
         tangentbord.nextLine();
-        for (int i4=-1; i4<=amount_star; i4++){
+        for (int i4=1; i4<=amount_star; i4++){
             System.out.print("*");
         }
+
+        //J
+        System.out.println("     ");
+        System.out.print("Skriv antalet stjärnor du vill ska skrivas ut här: ");
+        int amount_star2 = tangentbord.nextInt();
+        tangentbord.nextLine();
+        System.out.print("Skriv antalet rader du vill ska skrivas ut här: ");
+        int amount_rows = tangentbord.nextInt();
+        tangentbord.nextLine();
         tangentbord.close();
+        for (int i6=1; i6<=amount_rows; i6++) {
+            System.out.println();
+            for (int i5=1; i5<=amount_star2; i5++){
+                System.out.print("*");
+            }
+        }
     }
 }
